@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #2b7bff, #5fa8ff);
+  color: white;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero img {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Sections */
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Projects */
+#projects {
+  padding: 70px 0;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* Contact */
+#contact {
+  padding: 70px 0;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+  display: grid;
+  gap: 15px;
+}
+
+/* Footer */
+.footer {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
